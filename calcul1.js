@@ -18,6 +18,17 @@ return Math.round(enejiBatri / 5)
     locationResult.appendChild(createHeaderResult)
     let divResult = document.createElement('p')
 divResult.innerText= (`Pou ${kantiteBatri} batri\n${tansyonBatri} Volt\n${kapasiteBatri} Ah\nW ap bezwen ${puissanceCrete(kantiteBatri,tansyonBatri,kapasiteBatri)} watt pano`)
+
 locationResult.appendChild(divResult)
+
+let sectionDataEntry = document.getElementById('container-enter-data-calcul')
+sectionDataEntry.classList.toggle('hideme')
+
+let reloadAgain = document.getElementById('reloadAgain')
+reloadAgain.classList.toggle('hideme')
+
+reloadAgain.addEventListener('click',()=>{
+    location.reload();
+})
 },{once:true})
 

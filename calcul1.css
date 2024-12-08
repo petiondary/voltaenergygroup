@@ -116,6 +116,19 @@ margin-top: 3rem;
     text-transform: uppercase;
 }
 
-.hide{
+.hideme{
     display: none;
+}
+
+.btn-reload{
+    display: flex;
+    justify-content: center;
+}
+.btn-reload button{
+    background-color: green;
+    color: white;
+    padding: 2rem 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
 }
