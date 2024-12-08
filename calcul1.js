@@ -17,7 +17,7 @@ return Math.round(enejiBatri / 5)
     createHeaderResult.innerText=('Rezilta Devi Ou A')
     locationResult.appendChild(createHeaderResult)
     let divResult = document.createElement('p')
-divResult.innerText= (`Pou ${kantiteBatri} batri\n${tansyonBatri} Volt\n${kapasiteBatri} Ah\nW ap bezwen pou pi piti ${puissanceCrete(kantiteBatri,tansyonBatri,kapasiteBatri)} watt pano`)
+divResult.innerText= (`Pou ${kantiteBatri} batri\n${tansyonBatri} Volt\n${kapasiteBatri} Ah\nW ap bezwen ${puissanceCrete(kantiteBatri,tansyonBatri,kapasiteBatri)} watt pano`)
 locationResult.appendChild(divResult)
 },{once:true})
 
