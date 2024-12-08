@@ -1,0 +1,706 @@
+
+:root
+{
+---colorgreenbutton: #6EC207;
+  ---police1: "Roboto", sans-serif;
+  ---police2: "Kanit", sans-serif;}
+
+*{ 
+margin:0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior:smooth;
+/*border:2px solid yellow;*/
+}
+
+body
+{
+background-color: #F6F5F5;
+overflow-y: scroll;
+scroll-snap-type: y mandatory;
+}
+
+section{
+scroll-snap-align:start;
+
+}
+
+header
+{
+position:sticky;
+  top:0;
+}
+
+.header 
+{
+display:flex;
+background-color: green;
+justify-content: space-around;
+align-items:center;
+padding: 10px;
+height:8%;
+
+}
+
+.header .businessname
+{
+display: flex;
+}
+
+.businessname h4
+{
+color: white;
+font-weight: 750px;
+font-size:1.5em;
+}
+
+.navbar nav ul
+{
+display:flex;
+list-style: none;
+gap: 25px;
+}
+
+.navbar nav ul a
+{
+color:white;
+  text-decoration: none;
+  font-size:1.5em;
+}
+
+.banner
+{
+  scroll-snap-align:start;
+color: greeN;
+height:100vh;
+  
+}
+
+.imagesettextes
+{
+position: relative;
+  font-family: var(---police1);
+  
+}
+
+.imagesettextes img
+{
+filter: blur(2px) brightness(0.6);
+  border-radius: 0 0 25px 25px;
+  height:100%;
+  width:100%;
+  object-fit:cover;
+  
+}
+
+.textes
+{
+position:absolute;
+  top:20.0%;
+  left: 5%;
+}
+
+.textes h5,h6
+{
+  font-size: 3em;
+color: white;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-style:italic;
+  
+}
+
+.green
+{
+color: white;
+  text-transform: UPPERCASE;
+}
+
+.textes .needhelp
+
+{
+color:white;
+  margin-top: 2.3em;
+  margin-right: 2em;
+  font-size: 1.4em;
+  border-radius: 10px;
+  text-align: justify;
+  font-style:italic;
+  font-size:1.95em;
+
+}
+
+.textes .button 
+{
+  display:block;
+ margin:2.31em auto;
+  text-align: center;
+}
+
+
+.button .devi
+{
+ color: white;
+background-color: green;
+text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 20px;
+  font-size: 1.752em;
+  text-transform: uppercase;
+  /*margin-right: 75px;*/
+  font-weight: 700px;
+  padding:20px 40px;
+  
+
+}
+
+
+.button .boutik
+{
+ color: white;
+background-color: green;
+text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 20.4px;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight:700px;
+  padding:20px 40px;
+
+}
+
+
+
+.toutsevis
+{
+  margin: 0em;
+/*display:grid;
+  grid-template-columns: repeat(1, 1fr);*/
+  display:flex;
+  flex-flow:column nowrap;
+  gap: 5em;
+}
+
+
+.toutsevis .chaksevis
+{
+background-color: #fffffb;
+padding: 4em 2em;
+border-radius: 25px;
+  box-shadow: 10px 20px 10px rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+.toutsevis .theheader
+{
+text-align: center;
+  margin-bottom: 0.31em;
+
+}
+
+.theheader i
+{
+color: #347928;
+  background-color: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 1.7em;
+}
+
+.theheader h3
+{
+  Color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size : 1.35em;
+  margin-bottom:0.5em;
+}
+
+section h2
+
+{
+font-size: 2.5em;
+  text-transform: UPPERCASE;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: var(---police2);
+  color:white;
+  background-color:green;
+  padding: 5px 0px;
+}
+.chaksevis p
+{
+color: black;
+  font-size: 1em;
+  text-align: justify;
+  font-style: italic;
+  padding:0em 1em;
+  margin:2em auto;
+}
+
+.chaksevis a
+{
+  
+text-decoration:none;
+  background-color: green;
+  padding: 12px 45px;
+  border-radius: 10px;
+  text-transform: UPPERCASE;
+  font-size::0.1em;
+  color:white;
+  box-shadow: 5px 4px 7px rgba(0,0,0, 0.2);
+  
+
+}
+
+
+
+
+#nos-partenaires
+{
+background: white;
+  height:auto;
+ /* text-align: center;*/
+  
+
+}
+
+.nos-partenaires .images-partenaires
+{
+display:flex;
+justify-content:space-between;
+  align-items:center;
+  height:20vh;
+  overflow-x:scroll;
+  gap:2em;
+}
+
+.images-partenaires img{
+  width: 30%;
+  object-fit:center;
+  /*margin:1em;*/
+
+}
+
+#foto .foto
+{
+display: grid;
+grid-template-columns:repeat(2,1fr);
+grid-auto-flow: dense;
+  gap:10px;
+  width:100%;
+  padding:1em 0;
+ justify-content:center;
+  align-items:center;
+
+}
+
+#foto .foto img
+{
+max-width: 450px;
+aspect-ratio:1/1;
+border-radius: 25px;
+  object-fit:cover;
+  margin:auto;
+}
+
+#apwopo
+{
+padding: 1.5em;
+}
+#apwopo .apwopo p .title
+{
+font-size:2em;
+margin-top: 5em;
+margin-bottom: 1em;
+  
+}
+
+
+#kontak
+{
+display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+#kontak h3
+{
+font-size:2em;
+margin-bottom: 1.52em;
+}
+
+.form-container h4
+{
+font-size: 2em; 
+  margin-bottom: 1.5em;
+}
+
+#up .up i
+{
+color: yellow;
+font-size: 5em;
+  position:fixed;
+  bottom: 5%;
+  right: 2.5%;
+}
+
+footer
+{
+  
+  padding: 2em 1em;
+height: auto;
+  background-color: green;
+  display:flex;
+  justify-content:space-between;
+  margin-top:2em;
+  color:white;
+  
+}
+
+#businessnamefooter
+{
+text-align:center;
+}
+
+#businessnamefooter #nonfooter
+
+{
+
+color:white;
+  font-size:2em;
+  margin-bottom:0.3em;
+  text-align:center;
+  letter-spacing:3;
+  text-transform: uppercase;
+  
+
+}
+
+#businessnamefooter #devizfooter
+{
+color:white;
+  font-size:1.6em;
+  margin-bottom: 0.3em;
+  text-align:center;
+  letter-spacing:2.6:
+}
+
+#businessnamefooter #swivnou
+{
+color:white;
+  font-size:1em;
+  margin-bottom:0.3em;
+  text-align:left;
+}
+.footer , .gwoblok
+{
+display:flex;
+  flex-direction:column;
+  
+
+}
+
+.rezo
+{
+display: flex;
+  justify-content:center;
+  gap: 15px;
+  font-size:1.52em;
+  color:white;
+}
+
+.copyright
+{
+color:white;
+  text-align:center;
+  font-size:1.2em;
+}
+
+/*komansman page contact.html */
+
+#contactez-nous
+{
+height:auto;
+  
+}
+
+
+#contactez-nous .formulaire-contact h3
+
+{
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+ /* background: green;*/
+
+  color: green;
+
+  padding: 1em;
+
+  font-size: 2em;
+
+  letter-spacing: 3;
+  border-radius: 20px;
+  font-weight:bold;
+
+
+}
+
+#contactez-nous .formulaire-contact{
+
+width:95%;
+  margin:5em auto;
+   border:5px solid green;
+  border-radius:20px;
+  padding:2em;
+}
+
+#contactez-nous .input-group
+
+{
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-flow: column nowrap;
+
+  margin: 3em 2em;
+
+}
+
+.input-group label
+
+{
+
+  color: green;
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+  font-size:2em;
+  margin-bottom:0.25em;
+
+}
+
+.input-group input
+
+{
+width:100%;
+  border:none;
+  font-size:2em;
+  padding:0.5em;
+  border:1px solid green;
+}
+
+
+
+
+.input-group select
+
+{
+
+  background: white;
+
+  border: 1px solid green;
+
+  font-size:2em;
+
+  border-radius: 0;
+  color: green;
+  text-transform: uppercase;
+  padding:15px;
+  
+
+}
+
+.input-group textarea
+
+{
+
+  background: white;
+
+  border: 1px solid green;
+
+  height: 15em;
+
+  border-radius: 0;
+
+}
+
+.input-group textarea::placeholder
+
+{
+
+  font-size:2em;
+
+}
+
+
+.formulaire-contact #human
+
+{
+
+  display: none;
+
+}
+
+.formulaire-contact .btn-submit button{
+font-size:2em;
+background: green;
+border:none;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing:8;
+margin:0 auto;
+  padding: 1em 2.5em;
+  border-radius:20px;
+
+}
+
+  
+
+/*fenpage contact.htnl */
+
+
+/*komansman page apropos */
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+.bg2{
+
+  background: green;
+
+}
+
+.bg2 .slide-container{
+
+  overflow-y: scroll;
+
+  scroll-snap-type: y mandatory;
+
+  height: 100vh;
+
+}
+
+.bg2 .slide-container .slide{
+
+  scroll-snap-align:start;
+
+  height: 100vh;
+
+}
+
+
+/*komansman page devi html */
+
+#kalkil-devi
+{
+height:75vh;
+}
+#kalkil-devi h2
+{
+font-size: 2.5em;
+  text-transform: UPPERCASE;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: var(---police2);
+  color:white;
+  background-color:green;
+  padding: 5px 0px;
+}
+
+
+#kalkil-devi .devi-container
+{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+  gap:25px;
+  color:white;
+margin: 0 4em;
+}
+
+.devi-container .devis-items
+{
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content:center;
+  align-items:center;
+  background:green;
+  padding:0.5em; 
+  border-radius:15px;
+  aspect-ratio:1/1;
+}
+
+.devis-items button
+{
+border:none;
+background:transparent;
+}
+
+.devis-items i
+{
+font-size:5em;
+}
+
+/*.devis-items h3{
+text-align:center;
+  font-size:1.52em;
+}*/
+
+.devis-items h3{
+  text-align: center;
+}
+
+.devis-items h3 a{
+  text-align:center;
+    font-size:1.25em;
+    color: white;
+    text-decoration: none;
+
+  }
+
+
+
+/*fen page devi html */
+
+
+/*komansman page travail.html*/
+
+#travay-title .explore-photo{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:25px;
+}
+
+.explore-photo img{
+width:100%;
+  aspect-ratio:1/1;
+  border-radius:15px;
+}
+
+
+/*fen page travail.html*/
+
+/* komansman page  calcul devis yo */
+
+
+/*fen page calcul devis yo */

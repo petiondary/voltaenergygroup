@@ -1,0 +1,117 @@
+#result-devi-page h3{
+    color: white;
+    background-color: green;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container-enter-data-calcul{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border: 5px solid green;
+    border-radius: 10px;;
+    width: 80%;
+    margin: 15em auto;
+    padding: 3rem 2rem;
+}
+
+.container-enter-data-calcul h4{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: green;
+    margin-bottom: 3rem;
+}
+
+.container-enter-data-calcul .items-enter-data-calcul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.items-enter-data-calcul label{
+    width: 25rem;
+    flex:1;
+    text-align: center;
+    background-color: green;
+    padding: 0.65rem;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.items-enter-data-calcul input{
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+    width: 8rem;
+    padding: 1rem;
+}
+
+.items-enter-data-calcul select{
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+    width: 15rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: green;
+}
+
+
+.items-enter-data-calcul i, .items-enter-data-calcul p{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1.4rem;
+    width: 7rem;
+}
+
+.container-enter-data-calcul .btn-calcul-puissance-crete button{
+font-size: 2rem;
+background-color: green;
+padding: 1.75rem;
+font-weight: bold;
+text-transform: uppercase;
+color: white;
+border-radius: 20px;
+margin-top: 3rem;
+}
+
+#result-calcul-return p {
+    color: black;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 3rem 1rem;
+    text-transform: uppercase;
+    margin: 3rem auto;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+
+#result-calcul-return h4{
+    text-align: center;
+    font-size: 2.3rem;
+    background-color: green;
+    padding: 1.3rem;
+    color: white;
+    text-transform: uppercase;
+}
