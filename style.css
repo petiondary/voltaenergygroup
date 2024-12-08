@@ -10,7 +10,9 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 scroll-behavior:smooth;
+transition: 0.4s ease-out;
 /*border:2px solid yellow;*/
+
 }
 
 body
@@ -18,6 +20,7 @@ body
 background-color: #F6F5F5;
 overflow-y: scroll;
 scroll-snap-type: y mandatory;
+
 }
 
 section{
@@ -138,8 +141,7 @@ color:white;
 }
 
 
-.button .devi
-{
+.button .devi{
  color: white;
 background-color: green;
 text-decoration: none;
@@ -151,9 +153,8 @@ text-decoration: none;
   /*margin-right: 75px;*/
   font-weight: 700px;
   padding:20px 40px;
-  
-
 }
+
 
 
 .button .boutik
