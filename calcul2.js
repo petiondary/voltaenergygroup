@@ -16,7 +16,7 @@ let createHeaderResult = document.createElement('h4')
 createHeaderResult.innerText=('Rezilta Devi Ou A')
 locationResult.appendChild(createHeaderResult)
 let divResult =document.createElement('p')
-divResult.innerText=(`Pwisans Total Pano Yo : ${pwisansPanoSole2} \n Tansyon Batri : ${voltageBatri2} \n Anperaj Regilatè W ap bezwen an se : ${anperajRegilate(pwisansPanoSole2,voltageBatri2)} Anpè`)
+divResult.innerText=(`Pwisans Total Pano Yo : ${pwisansPanoSole2} Watts\n Tansyon Batri : ${voltageBatri2} Volt \n Anperaj Regilatè W ap bezwen an se : ${anperajRegilate(pwisansPanoSole2,voltageBatri2)} Anpè`)
 locationResult.appendChild(divResult)
 }, {once:true}
 )
